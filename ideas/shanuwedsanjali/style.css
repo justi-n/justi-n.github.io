@@ -1,0 +1,106 @@
+
+.countDownWrapper {
+  width: 100%;
+  float: left;
+}
+.dateInfo {
+  /* font-family: "Teko", sans-serif; */
+  width: 100%;
+  float: left;
+  font-size: 21pt;
+  margin-bottom: 0px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 0px;
+  font-weight: 100;
+  color: #1a1a1a;
+}
+#countdownTimer {
+  width: 100%;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#countdownTimer .timeHolder {
+  width: 25%;
+  float: left;
+}
+#countdownTimer .timeHolder p {
+  font-size: 17pt;
+  float: left;
+  text-align: center;
+  width: 100%;
+  /* font-family: "Arvo", serif; */
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #222;
+}
+#countdownTimer .timeHolder h2 {
+  font-size: 10pt;
+  float: left;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  /* font-family: "Arvo", serif; */
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #222;
+}
+
+img {
+    filter: grayscale(100%);
+    transition: all 2s ease;
+    -webkit-transition: all 2 ease;
+}
+img:hover {
+    filter: grayscale(10%);
+    transition: all 2s ease;
+    -webkit-transition: all 2 ease;
+    /* transform: scale(0.9); */
+}
+
+
+#welcome * {
+    /* color: #313131 !important; */
+    background-color: #313131 !important;
+}
+#welcome h1.major::after {
+    color: #313131 !important;
+}
+
+.colorwhite {
+    color: white !important;
+}
+#bibleverse {
+    background-color: lightseagreen !important;
+}
+
+#weddingdate * {
+    color: #313131 !important;
+}
+
+#weddingdate h2.major::after {
+    /* color: #313131 !important; */
+    background-color: #313131 !important;
+}
+
+#hello {
+/* color: lightseagreen; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#lastpage *{
+    color: #313131 !important;
+}
+
+#lastpage .intro{
+    padding: 0% !important;
+}
+
+#lastpage img {
+    filter: none;
+
+}
