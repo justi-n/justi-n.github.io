@@ -49,7 +49,7 @@
   color: #222;
 }
 
-img {
+/* img {
     filter: grayscale(100%);
     transition: all 2s ease;
     -webkit-transition: all 2 ease;
@@ -58,8 +58,8 @@ img:hover {
     filter: grayscale(10%);
     transition: all 2s ease;
     -webkit-transition: all 2 ease;
-    /* transform: scale(0.9); */
-}
+    transform: scale(0.9);
+} */
 
 
 #welcome * {
