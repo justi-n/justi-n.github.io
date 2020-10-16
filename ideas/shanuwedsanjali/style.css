@@ -61,10 +61,34 @@ img:hover {
     transform: scale(0.9);
 } */
 
+#avatar {
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+}
+
+#image {
+    background-color: #fdc162;
+}
+
+#countdown * {
+    /* color: #313131 !important; */
+    background-color: antiquewhite !important;
+    color: #313131 !important;
+}
+#countdown h2.major::after {
+    background-color: #313131 !important;
+}
+
+
+#savethedate * {
+    color:#fdc162 !important;
+    background-color: #131521 !important;
+}
 
 #welcome * {
     /* color: #313131 !important; */
-    background-color: #313131 !important;
+    background-color: #292B3C !important;
 }
 #welcome h1.major::after {
     color: #313131 !important;
@@ -74,7 +98,7 @@ img:hover {
     color: white !important;
 }
 #bibleverse {
-    background-color: lightseagreen !important;
+    background-color: #fd6a62 !important;
 }
 
 #weddingdate * {
@@ -103,4 +127,13 @@ img:hover {
 #lastpage img {
     filter: none;
 
+}
+
+#last * {
+    /* color: #313131 !important; */
+    background-color: #292B3C !important;
+}
+
+#page-wrapper {
+    background-color: burlywood;
 }

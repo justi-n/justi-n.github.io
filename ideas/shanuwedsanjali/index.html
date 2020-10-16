@@ -5,123 +5,137 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Shanu weds Anjali</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-        <link rel="stylesheet" href="style.css" />
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js'></script>
-        <script src="./script.js"></script>
 
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+    <title>Shanu weds Anjali</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js'></script>
+    <script src="./script.js"></script>
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
 
-				<!-- Wrapper -->
-					<div id="wrapper">
+<body class="is-preload">
 
-						<!-- Panel (Banner) -->
-							<section class="panel banner right" id="welcome">
-								<div class="content span-3-75">
-                                    <h1 class="major">Shanu <span>&</span> Anjali</h1>
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
 
-                                    <p><span id="hello">Hello! </span>We're happy to inform you that we're getting married on <strong>Monday, November 2, 2020</strong>.
-                                        We would have loved your presence on our wedding day, but due to COVID that looks unlikely.</p>
-                                    <p>As we start this journey together, we really hope that you continue to support us with your love, prayers and blessings!</p>
-									<!-- <ul class="actions">
-										<li><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
-									</ul> -->
-								</div>
-								<div class="image span-1-75" data-position="25% 25%">
-									<img src="images/couple.png" alt="" />
-								</div>
-                            </section>
-
-                            <section class="panel banner" id="bibleverse">
-								<div class="content span-3">
-                                    <h2 class="major colorwhite">Philippians 1:7</h2>
-                                    <blockquote>I hold you in my heart, for we have shared together God’s blessings.</blockquote>
-                                    <!-- <p>Mathew 19:6</p> -->
-								</div>
-							</section>
+        <!-- Wrapper -->
+        <div id="wrapper">
 
 
-                            <section class="panel banner" id="weddingdate">
-								<div class="content">
-                                    <h2 class="major">November 2, 2020</h2>
-                                    <div id="countDownWrapper">
-                                        <!-- <div class="dateInfo">
+            <!-- Panel (Banner) -->
+            <section class="panel banner" id="image">
+                <div class="image span-3-75" data-position="100% 100%">
+                    <img src="images/shanu2.png" alt="" />
+                </div>
+
+            </section>
+
+            <section class="panel banner right" id="savethedate">
+                <div class="content span-4-75">
+                    <h1>Save the Date</h1>
+                </div>
+            </section>
+
+            <section class="panel banner right" id="welcome">
+                <div class="content span-3-75">
+                    <h2 class="major">Shanu <span>&</span> Anjali</h2>
+
+                    <p><span id="hello">Hello! </span>We're happy to inform you that we're getting married on
+                        <strong>Monday, November 2, 2020</strong>. As we start this journey together, we would love to
+                        have you join us virutally!</p>
+
+                    <ul class="actions">
+                        <li><a href="#" class="button icon fa-gem">Watch us Live</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="panel banner" id="bibleverse">
+                <div class="content span-3">
+                    <h2 class="major colorwhite">Philippians 1:7</h2>
+                    <blockquote>"I hold you in my heart, for we have shared together God’s blessings."</blockquote>
+                    <!-- <p>Mathew 19:6</p> -->
+                </div>
+            </section>
+
+
+            <section class="panel banner" id="countdown">
+                <div class="content">
+                    <h2 class="major">November 2, 2020</h2>
+                    <div id="countDownWrapper">
+                        <!-- <div class="dateInfo">
                                             <p>November 2, 2020</p>
                                         </div> -->
-                                        <div id="countdownTimer">
-                                            <div class="timeHolder">
-                                                <p>{{countdown_days}}</p>
-                                                <h2>DAYS</h2>
-                                            </div>
-                                            <div class="timeHolder">
-                                                <p>{{countdown_hours}}</p>
-                                                <h2>HOURS</h2>
-                                            </div>
-                                            <div class="timeHolder">
-                                                <p>{{countdown_min}}</p>
-                                                <h2>MINS</h2>
-                                            </div>
-                                            <div class="timeHolder">
-                                                <p>{{countdown_sec}}</p>
-                                                <h2>SEC</h2>
-                                            </div>
-                                        </div>
-                                    </div>
-								</div>
-							</section>
-                        						<!-- Panel -->
+                        <div id="countdownTimer">
+                            <div class="timeHolder">
+                                <p>{{countdown_days}}</p>
+                                <h2>DAYS</h2>
+                            </div>
+                            <div class="timeHolder">
+                                <p>{{countdown_hours}}</p>
+                                <h2>HOURS</h2>
+                            </div>
+                            <div class="timeHolder">
+                                <p>{{countdown_min}}</p>
+                                <h2>MINS</h2>
+                            </div>
+                            <div class="timeHolder">
+                                <p>{{countdown_sec}}</p>
+                                <h2>SEC</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Panel -->
+
+            <section class="panel banner" id="last">
+                <div class="content span-3">
+
+                    <!-- <div><span><img id="avatar" src="images/pic01.jpg"/><span></span></span><span><img id="avatar" src="images/pic01.jpg"/><span></span></span></div> -->
+                    <!-- <h2 class="major">Shanu</h2>
+                    <ul class="contact-icons color1">
+                        <li class="icon brands fa-facebook-f"><a target="_blank"
+                                href="https://www.facebook.com/shanu.joseph.58">facebook</a></li>
+                        <li class="icon brands fa-instagram"><a target="_blank"
+                                href="https://www.instagram.com/shanu.joseph.25/">instagram</a></li>
+                    </ul>
+                    <h2 class="major">Anjali</h2>
+                    <ul class="contact-icons color1">
+                        <li class="icon brands fa-facebook-f"><a target="_blank"
+                                href="https://www.facebook.com/anjali.k.thomas.5">facebook</a></li>
+                        <li class="icon brands fa-instagram"><a target="_blank"
+                                href="https://www.instagram.com/anjalithomas1994/">instagram</a></li>
+                    </ul> -->
+                </div>
+            </section>
+
+            <!-- Panel -->
+            <!-- <section class="panel" id="last"> -->
+
+            <!-- </section> -->
 
 
-						<!-- Panel (Spotlight) -->
-							<section class="panel spotlight large right">
-								<div class="content span-3">
-                                    <h2 class="major">Shanu</h2>
-                                    <ul class="contact-icons color1">
-                                        <li class="icon brands fa-facebook-f"><a target="_blank" href="https://www.facebook.com/shanu.joseph.58">facebook</a></li>
-                                        <li class="icon brands fa-instagram"><a target="_blank" href="https://www.instagram.com/shanu.joseph.25/">instagram</a></li>
-                                    </ul>
-                                    <h2 class="major">Anjali</h2>
-                                    <ul class="contact-icons color1">
-                                        <li class="icon brands fa-facebook-f"><a target="_blank" href="https://www.facebook.com/anjali.k.thomas.5">facebook</a></li>
-                                        <li class="icon brands fa-instagram"><a target="_blank" href="https://www.instagram.com/anjalithomas1994/">instagram</a></li>
-                                    </ul>
-								</div>
-								<div class="image filtered " data-position="top right">
-									<img src="images/couple3.jpg" alt="" />
-								</div>
-							</section>
+            <!-- Copyright -->
+            <div class="copyright">Shanu weds Anjali</div>
 
+        </div>
 
-						<!-- Panel -->
-							<section class="panel" id="lastpage">
-								<div class="intro">
-                                        <img src="images/logo.png" alt="" />
-								</div>
-							</section>
+    </div>
 
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/main.js"></script>
 
-						<!-- Copyright -->
-							<div class="copyright">&copy; Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
+</body>
 
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>

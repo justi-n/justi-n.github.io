@@ -4,40 +4,40 @@ $(document).ready(function() {
   $('body').addClass('homeOpened');
   countdownTimerInit();
   logoCenter();
-  
-  
+
+
   $('.openHomePage').click(function(e){
     e.preventDefault();
     $('.homepage').addClass('homeOpened');
     $('body').removeClass('homeOpened');
   });
-  
+
   $('.goHome').click(function(e){
     e.preventDefault();
      $('.homepage').removeClass('homeOpened');
     $('body').addClass('homeOpened');
- 
+
   });
-  
+
    $('.menuToggle i').click(function(e){
     e.preventDefault();
     $('.menuToggle').toggleClass('opened');
      $('nav').toggleClass('opened');
   });
-  
+
    $('nav a').click(function(e){
     e.preventDefault();
       $('.menuToggle').toggleClass('opened');
      $('nav').toggleClass('opened');
   });
-  
+
    $('.accordian .trigger').click(function(e){
     e.preventDefault();
       $(this).parent('.accordian').toggleClass('opened');
 
   });
-  
-  
+
+
 });
 
 var resizeTimer;
@@ -46,7 +46,7 @@ $(window).on('resize', function(e) {
   resizeTimer = setTimeout(function() {
 
   logoCenter();
-            
+
   }, 250);
 });
 
@@ -89,16 +89,16 @@ function countdownTimerInit() {
 function logoCenter(){
   var logoHeight = $('.weddingLogo').height();
   var pageHeight = $(window).height();
-  
+
   var marginPushT = (pageHeight/2)-(logoHeight/2);
   $('.weddingLogo').css('margin-top',marginPushT+'px');
-  
+
    var logoWidth = $('.weddingLogo').width();
   var pageWidth = $(window).width()/2;
-  
+
   var marginPushL = (pageWidth/2)-(logoWidth/2);
   $('.weddingLogo').css('margin-left',marginPushL+'px');
-  
+
 }
 
 
@@ -110,8 +110,8 @@ $('a[href*="#"]')
   .click(function(event) {
     // On-page links
     if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
       location.hostname == this.hostname
     ) {
       // Figure out element to scroll to
@@ -138,3 +138,6 @@ $('a[href*="#"]')
       }
     }
   });
+
+
+
