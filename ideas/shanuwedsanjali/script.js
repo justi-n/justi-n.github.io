@@ -1,4 +1,4 @@
-var weddingDate = "November 2, 2020 9:00:00";
+var weddingDate = "November 2, 2020 10:00:00";
 
 $(document).ready(function () {
     var audioElement = document.createElement('audio');
